@@ -306,4 +306,5 @@ Added an area called Admin and added view files....Part 1 of the Assignment comp
 
 06:30pm
 Starting Part 2 of the assignment again as per instructions.....
-New Migration File for initial Database: 20221125234308_AddInitialDatabase.cs
+New Migration File for Initial Database: 20221125234308_AddInitialDatabase.cs
+New Migration File for Adding Category: 20221125235103_AddCategory.cs
