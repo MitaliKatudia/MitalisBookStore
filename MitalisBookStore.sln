@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitalisBookStore", "MitalisBookStore\MitalisBookStore.csproj", "{263C1BBC-74F2-42C7-8B16-D3D9BA6157C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitalisBooks.DataAccess", "MitalisBooks.DataAccess\MitalisBooks.DataAccess.csproj", "{C6B9013B-6B7A-4549-A59C-48A326904299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitalisBooks.Models", "MitalisBooks.Models\MitalisBooks.Models.csproj", "{381F523B-146D-4B83-A43D-02FEEE828247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitalisBooks.Utility", "MitalisBooks.Utility\MitalisBooks.Utility.csproj", "{64BCE50F-61A1-4ACD-A42A-183DD028E7ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{263C1BBC-74F2-42C7-8B16-D3D9BA6157C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263C1BBC-74F2-42C7-8B16-D3D9BA6157C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{263C1BBC-74F2-42C7-8B16-D3D9BA6157C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B9013B-6B7A-4549-A59C-48A326904299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B9013B-6B7A-4549-A59C-48A326904299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B9013B-6B7A-4549-A59C-48A326904299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B9013B-6B7A-4549-A59C-48A326904299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381F523B-146D-4B83-A43D-02FEEE828247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381F523B-146D-4B83-A43D-02FEEE828247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381F523B-146D-4B83-A43D-02FEEE828247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381F523B-146D-4B83-A43D-02FEEE828247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BCE50F-61A1-4ACD-A42A-183DD028E7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BCE50F-61A1-4ACD-A42A-183DD028E7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BCE50F-61A1-4ACD-A42A-183DD028E7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BCE50F-61A1-4ACD-A42A-183DD028E7ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
