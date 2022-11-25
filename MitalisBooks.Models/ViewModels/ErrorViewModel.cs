@@ -1,6 +1,6 @@
 using System;
 
-namespace MitalisBookStore.Models
+namespace MitalisBookStore.Models.ViewModels
 {
     public class ErrorViewModel
     {
