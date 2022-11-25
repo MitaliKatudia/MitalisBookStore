@@ -30,7 +30,8 @@ namespace MitalisBookStore
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<IdentityUser>()    /*(options => options.SignIn.RequireConfirmedAccount = true)*/
+                // Removed the option for requirecConfirmAccount in Startup.cs for identity user  
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
