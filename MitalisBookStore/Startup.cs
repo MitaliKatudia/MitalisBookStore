@@ -1,3 +1,5 @@
+using MitalisBooks.DataAccess.Repository.IRepository;
+using MitalisBooks.DataAccess.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,6 +35,7 @@ namespace MitalisBookStore
             services.AddDefaultIdentity<IdentityUser>()    /*(options => options.SignIn.RequireConfirmedAccount = true)*/
                 // Removed the option for requirecConfirmAccount in Startup.cs for identity user  
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();  // To make it accessible with DI for any controller
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
