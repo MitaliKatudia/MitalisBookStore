@@ -11,9 +11,9 @@ namespace MitalisBooks.DataAccess.Repository.IRepository
 
         ISP_Call SP_Call { get; }
 
-        /*ICoverTypeRepository CoverType { get; }
+        ICoverTypeRepository CoverType { get; }
 
-        IProductRepository Product { get; }*/
+        /*IProductRepository Product { get; }*/
 
         void Save();
     }
