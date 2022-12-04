@@ -4,8 +4,6 @@ namespace MitalisBooks.DataAccess.Migrations
 {
     public partial class AddStroredProc : Migration
     {
-        public partial class AddStoredProcForCoverType : Migration
-        {
             protected override void Up(MigrationBuilder migrationBuilder)
             {
                 migrationBuilder.Sql(@"CREATE PROC usp_GetCoverTypes 
@@ -57,5 +55,5 @@ namespace MitalisBooks.DataAccess.Migrations
                 migrationBuilder.Sql(@"DROP PROCEDURE usp_CreateCoverType");
             }
         }
-    }
+    
 }
