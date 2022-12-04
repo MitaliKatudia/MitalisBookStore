@@ -1,7 +1,9 @@
 ﻿using MitalisBooks.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MitalisBooks.DataAccess.Repository.IRepository
 {
@@ -9,4 +11,5 @@ namespace MitalisBooks.DataAccess.Repository.IRepository
     {
         void Update(Product product);
     }
+
 }
