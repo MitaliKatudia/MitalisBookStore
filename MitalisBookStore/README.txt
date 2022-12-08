@@ -355,3 +355,10 @@ Edited the _Layout.cshtml to take the index of Home Page in "MitalisBookStore"
 It showed the same pages in Home as well as MitalisBookStore ....hence created a new view called HomePage and added the view in HomeController.cs
 Everything works good....still having the datatable alert popup....
 Commiting for now....taking a break at 04:25pm
+
+---------------------------------------------------------------------------------------------------------------------------
+2022-12-08, 06:20pm
+
+Part 5 of the Assignment
+Checking whether everything is perfect....
+Pages run properly as expected...doing minor changes with the display of the view pages...
